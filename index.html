@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <meta charset="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <title>Carousel</title>
+                <link
+                        rel="stylesheet"
+                        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+                        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+                        crossorigin="anonymous"
+                />
+                <link rel="stylesheet" href="style.css" />
+        </head>
+        <body>
+                <div class="carousel-wrapper">
+                        <div class="carousel">
+                                <img id="img-1" class="carousel-img active" src="imgs/pic1.jpg" />
+                                <img id="img-2" class="carousel-img" src="imgs/pic2.jpg" />
+                                <img id="img-3" class="carousel-img" src="imgs/pic3.jpg" />
+                                <img id="img-4" class="carousel-img" src="imgs/pic4.jpg" />
+                        </div>
+
+                        <div class="carousel-bubbles"></div>
+
+                        <div class="controls">
+                                <button id="last-slide"><i class="fas fa-step-backward"></i></button>
+                                <button id="pause-slide"><i class="fas fa-pause"></i></button>
+                                <button id="play-slide"><i class="fas fa-play"></i></button>
+                                <button id="next-slide"><i class="fas fa-step-forward"></i></button>
+                        </div>
+                </div>
+                <script src="script.js"></script>
+        </body>
+</html>
